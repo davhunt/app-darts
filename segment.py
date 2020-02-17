@@ -10,7 +10,7 @@ seg_obj = Segmentation(model_wts_path='/N/u/davhunt/Carbonate/app-darts/saved_mo
 seg_out, seg_proba_out = seg_obj.predict(inputs=sys.argv[1])
 
 T1 = nib.load(sys.argv[1])
-parc_img = nib.Nifti1Image(seg_out, T1.affine)
-prob_map_img = nib.Nifti1Image(seg_proba_out, T1.affine)
+parc_img = nib.Nifti1Image(seg_out, T1.affine, header=T1.header)
+prob_map_img = nib.Nifti1Image(seg_proba_out, T1.affine, header=T1.header)
 nib.save(parc_img,'parc/parc.nii.gz')
 nib.save(prob_map_img, 'softmax_prob_map.nii.gz')
