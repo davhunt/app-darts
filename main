@@ -6,7 +6,7 @@
 set -e
 set -x
 
-fsdir=`jq -r .output config.json`
+t1=`jq -r .t1 config.json`
 
 mkdir -p parc
 cp key.txt parc/key.txt
@@ -14,6 +14,6 @@ cp key.txt parc/key.txt
 [ -z "$FREESURFER_LICENSE" ] && echo "Please set FREESURFER_LICENSE in .bashrc" && exit 1;
 echo $FREESURFER_LICENSE > license.txt
 
-time singularity exec -e -B `pwd`/license.txt:/usr/local/freesurfer/license.txt docker://brainlife/freesurfer:6.0.1 bash -c "mri_convert $fsdir/mri/T1.mgz $fsdir/mri/T1.nii.gz"
+#time singularity exec -e -B `pwd`/license.txt:/usr/local/freesurfer/license.txt docker://brainlife/freesurfer:6.0.1 bash -c "mri_convert $fsdir/mri/T1.mgz $fsdir/mri/T1.nii.gz"
 
-time singularity exec -e docker://davhunt/darts:0.1 ./segment.py "$fsdir"
+time singularity exec -e docker://davhunt/darts:0.1 ./segment.py "$t1"

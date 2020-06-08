@@ -6,7 +6,7 @@ import numpy as np
 import nibabel as nib
 from DARTS import Segmentation
 
-t1 = os.path.join(sys.argv[1],'mri','T1.nii.gz')
+t1 = sys.argv[1]
 
 #seg_obj = Segmentation(model_wts_path='./saved_model_wts/dense_unet_saggital_finetuned.pth', model_type='dense-unet', use_gpu=False)
 seg_obj = Segmentation(model_wts_path='/N/u/davhunt/Carbonate/app-darts/saved_model_wts/dense_unet_back2front_finetuned.pth', model_type='dense-unet', use_gpu=False)
