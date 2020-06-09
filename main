@@ -14,4 +14,4 @@ cp key.txt parc/key.txt
 [ -z "$FREESURFER_LICENSE" ] && echo "Please set FREESURFER_LICENSE in .bashrc" && exit 1;
 echo $FREESURFER_LICENSE > license.txt
 
-time singularity exec -e docker://davhunt/darts:1.0.2./segment.py "$t1"
+time singularity exec -e docker://davhunt/darts:1.0.2 ./segment.py "$t1"
