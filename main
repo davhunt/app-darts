@@ -9,7 +9,7 @@ set -x
 t1=`jq -r .t1 config.json`
 
 mkdir -p parc
-cp key.txt parc/key.txt
+cp key.txt parc/key.txt && cp label.json parc/label.json
 
 [ -z "$FREESURFER_LICENSE" ] && echo "Please set FREESURFER_LICENSE in .bashrc" && exit 1;
 echo $FREESURFER_LICENSE > license.txt

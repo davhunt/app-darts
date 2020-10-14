@@ -1,0 +1,414 @@
+[
+  {
+    "name": "Left-Cerebral-White-Matter",
+    "voxel_value": 0
+  },
+  {
+    "name": "Left-Lateral-Ventricle",
+    "voxel_value": 1
+  },
+  {
+    "name": "Left-Inf-Lat-Vent",
+    "voxel_value": 2
+  },
+  {
+    "name": "Left-Cerebellum-White-Matter",
+    "voxel_value": 3
+  },
+  {
+    "name": "Left-Cerebellum-Cortex",
+    "voxel_value": 4
+  },
+  {
+    "name": "Left-Thalamus-Proper",
+    "voxel_value": 5
+  },
+  {
+    "name": "Left-Caudate",
+    "voxel_value": 6
+  },
+  {
+    "name": "Left-Putamen",
+    "voxel_value": 7
+  },
+  {
+    "name": "Left-Pallidum",
+    "voxel_value": 8
+  },
+  {
+    "name": "3rd-Ventricle",
+    "voxel_value": 9
+  },
+  {
+    "name": "4th-Ventricle",
+    "voxel_value": 10
+  },
+  {
+    "name": "Brain-Stem",
+    "voxel_value": 11
+  },
+  {
+    "name": "Left-Hippocampus",
+    "voxel_value": 12
+  },
+  {
+    "name": "Left-Amygdala",
+    "voxel_value": 13
+  },
+  {
+    "name": "CSF",
+    "voxel_value": 14
+  },
+  {
+    "name": "Left-Accumbens-area",
+    "voxel_value": 15
+  },
+  {
+    "name": "Left-VentralDC",
+    "voxel_value": 16
+  },
+  {
+    "name": "Left-vessel",
+    "voxel_value": 17
+  },
+  {
+    "name": "Left-choroid-plexus",
+    "voxel_value": 18
+  },
+  {
+    "name": "Right-Cerebral-White-Matter",
+    "voxel_value": 19
+  },
+  {
+    "name": "Right-Lateral-Ventricle",
+    "voxel_value": 20
+  },
+  {
+    "name": "Right-Inf-Lat-Vent",
+    "voxel_value": 21
+  },
+  {
+    "name": "Right-Cerebellum-White-Matter",
+    "voxel_value": 22
+  },
+  {
+    "name": "Right-Cerebellum-Cortex",
+    "voxel_value": 23
+  },
+  {
+    "name": "Right-Thalamus-Proper",
+    "voxel_value": 24
+  },
+  {
+    "name": "Right-Caudate",
+    "voxel_value": 25
+  },
+  {
+    "name": "Right-Putamen",
+    "voxel_value": 26
+  },
+  {
+    "name": "Right-Pallidum",
+    "voxel_value": 27
+  },
+  {
+    "name": "Right-Hippocampus",
+    "voxel_value": 28
+  },
+  {
+    "name": "Right-Amygdala",
+    "voxel_value": 29
+  },
+  {
+    "name": "Right-Accumbens-area",
+    "voxel_value": 30
+  },
+  {
+    "name": "Right-VentralDC",
+    "voxel_value": 31
+  },
+  {
+    "name": "Right-vessel",
+    "voxel_value": 32
+  },
+  {
+    "name": "Right-choroid-plexus",
+    "voxel_value": 33
+  },
+  {
+    "name": "Optic-Chiasm",
+    "voxel_value": 34
+  },
+  {
+    "name": "CC_Posterior",
+    "voxel_value": 35
+  },
+  {
+    "name": "CC_Mid_Posterior",
+    "voxel_value": 36
+  },
+  {
+    "name": "CC_Central",
+    "voxel_value": 37
+  },
+  {
+    "name": "CC_Mid_Anterior",
+    "voxel_value": 38
+  },
+  {
+    "name": "CC_Anterior",
+    "voxel_value": 39
+  },
+  {
+    "name": "ctx-lh-caudalanteriorcingulate",
+    "voxel_value": 40
+  },
+  {
+    "name": "ctx-lh-caudalmiddlefrontal",
+    "voxel_value": 41
+  },
+  {
+    "name": "ctx-lh-cuneus",
+    "voxel_value": 42
+  },
+  {
+    "name": "ctx-lh-entorhinal",
+    "voxel_value": 43
+  },
+  {
+    "name": "ctx-lh-fusiform",
+    "voxel_value": 44
+  },
+  {
+    "name": "ctx-lh-inferiorparietal",
+    "voxel_value": 45
+  },
+  {
+    "name": "ctx-lh-inferiortemporal",
+    "voxel_value": 46
+  },
+  {
+    "name": "ctx-lh-isthmuscingulate",
+    "voxel_value": 47
+  },
+  {
+    "name": "ctx-lh-lateraloccipital",
+    "voxel_value": 48
+  },
+  {
+    "name": "ctx-lh-lateralorbitofrontal",
+    "voxel_value": 49
+  },
+  {
+    "name": "ctx-lh-lingual",
+    "voxel_value": 50
+  },
+  {
+    "name": "ctx-lh-medialorbitofrontal",
+    "voxel_value": 51
+  },
+  {
+    "name": "ctx-lh-middletemporal",
+    "voxel_value": 52
+  },
+  {
+    "name": "ctx-lh-parahippocampal",
+    "voxel_value": 53
+  },
+  {
+    "name": "ctx-lh-paracentral",
+    "voxel_value": 54
+  },
+  {
+    "name": "ctx-lh-parsopercularis",
+    "voxel_value": 55
+  },
+  {
+    "name": "ctx-lh-parsorbitalis",
+    "voxel_value": 56
+  },
+  {
+    "name": "ctx-lh-parstriangularis",
+    "voxel_value": 57
+  },
+  {
+    "name": "ctx-lh-pericalcarine",
+    "voxel_value": 58
+  },
+  {
+    "name": "ctx-lh-postcentral",
+    "voxel_value": 59
+  },
+  {
+    "name": "ctx-lh-posteriorcingulate",
+    "voxel_value": 60
+  },
+  {
+    "name": "ctx-lh-precentral",
+    "voxel_value": 61
+  },
+  {
+    "name": "ctx-lh-precuneus",
+    "voxel_value": 62
+  },
+  {
+    "name": "ctx-lh-rostralanteriorcingulate",
+    "voxel_value": 63
+  },
+  {
+    "name": "ctx-lh-rostralmiddlefrontal",
+    "voxel_value": 64
+  },
+  {
+    "name": "ctx-lh-superiorfrontal",
+    "voxel_value": 65
+  },
+  {
+    "name": "ctx-lh-superiorparietal",
+    "voxel_value": 66
+  },
+  {
+    "name": "ctx-lh-superiortemporal",
+    "voxel_value": 67
+  },
+  {
+    "name": "ctx-lh-supramarginal",
+    "voxel_value": 68
+  },
+  {
+    "name": "ctx-lh-transversetemporal",
+    "voxel_value": 69
+  },
+  {
+    "name": "ctx-lh-insula",
+    "voxel_value": 70
+  },
+  {
+    "name": "ctx-rh-caudalanteriorcingulate",
+    "voxel_value": 71
+  },
+  {
+    "name": "ctx-rh-caudalmiddlefrontal",
+    "voxel_value": 72
+  },
+  {
+    "name": "ctx-rh-cuneus",
+    "voxel_value": 73
+  },
+  {
+    "name": "ctx-rh-entorhinal",
+    "voxel_value": 74
+  },
+  {
+    "name": "ctx-rh-fusiform",
+    "voxel_value": 75
+  },
+  {
+    "name": "ctx-rh-inferiorparietal",
+    "voxel_value": 76
+  },
+  {
+    "name": "ctx-rh-inferiortemporal",
+    "voxel_value": 77
+  },
+  {
+    "name": "ctx-rh-isthmuscingulate",
+    "voxel_value": 78
+  },
+  {
+    "name": "ctx-rh-lateraloccipital",
+    "voxel_value": 79
+  },
+  {
+    "name": "ctx-rh-lateralorbitofrontal",
+    "voxel_value": 80
+  },
+  {
+    "name": "ctx-rh-lingual",
+    "voxel_value": 81
+  },
+  {
+    "name": "ctx-rh-medialorbitofrontal",
+    "voxel_value": 82
+  },
+  {
+    "name": "ctx-rh-middletemporal",
+    "voxel_value": 83
+  },
+  {
+    "name": "ctx-rh-parahippocampal",
+    "voxel_value": 84
+  },
+  {
+    "name": "ctx-rh-paracentral",
+    "voxel_value": 85
+  },
+  {
+    "name": "ctx-rh-parsopercularis",
+    "voxel_value": 86
+  },
+  {
+    "name": "ctx-rh-parsorbitalis",
+    "voxel_value": 87
+  },
+  {
+    "name": "ctx-rh-parstriangularis",
+    "voxel_value": 88
+  },
+  {
+    "name": "ctx-rh-pericalcarine",
+    "voxel_value": 89
+  },
+  {
+    "name": "ctx-rh-postcentral",
+    "voxel_value": 90
+  },
+  {
+    "name": "ctx-rh-posteriorcingulate",
+    "voxel_value": 91
+  },
+  {
+    "name": "ctx-rh-precentral",
+    "voxel_value": 92
+  },
+  {
+    "name": "ctx-rh-precuneus",
+    "voxel_value": 93
+  },
+  {
+    "name": "ctx-rh-rostralanteriorcingulate",
+    "voxel_value": 94
+  },
+  {
+    "name": "ctx-rh-rostralmiddlefrontal",
+    "voxel_value": 95
+  },
+  {
+    "name": "ctx-rh-superiorfrontal",
+    "voxel_value": 96
+  },
+  {
+    "name": "ctx-rh-superiorparietal",
+    "voxel_value": 97
+  },
+  {
+    "name": "ctx-rh-superiortemporal",
+    "voxel_value": 98
+  },
+  {
+    "name": "ctx-rh-supramarginal",
+    "voxel_value": 99
+  },
+  {
+    "name": "ctx-rh-transversetemporal",
+    "voxel_value": 100
+  },
+  {
+    "name": "ctx-rh-insula",
+    "voxel_value": 101
+  },
+  {
+    "name": "Unkown",
+    "voxel_value": 102
+  }
+]
