@@ -1,5 +1,5 @@
 [![Abcdspec-compliant](https://img.shields.io/badge/ABCD_Spec-v1.1-green.svg)](https://github.com/brain-life/abcd-spec)
-[![Run on Brainlife.io](https://img.shields.io/badge/Brainlife-bl.app.276-blue.svg)](https://doi.org/10.25663/bl.app.276)
+[![Run on Brainlife.io](https://img.shields.io/badge/Brainlife-brainlife.app.276-blue.svg)](https://doi.org/10.25663/brainlife.app.276)
 
 # app-DARTS
 
@@ -25,11 +25,16 @@ brainlife.io is publicly funded and for the sustainability of the project it is 
 
 1. Aakash Kaku, Chaitra V. Hegde, Jeffrey Huang, Sohae Chung, Xiuyuan Wang, Matthew Young, Alireza Radmanesh, Yvonne W. Lui, Narges Razavian. DARTS: DenseUnet-based Automatic Rapid Tool for Brain Segmentation. [https://arxiv.org/abs/1911.05567](https://arxiv.org/abs/1911.05567)
 
+2. Avesani, P., McPherson, B., Hayashi, S. et al. The open diffusion data derivatives, brain data upcycling via integrated publishing of derivatives and reproducible open cloud services. Sci Data 6, 69 (2019). [https://doi.org/10.1038/s41597-019-0073-y](https://doi.org/10.1038/s41597-019-0073-y)
+
+#### MIT Copyright (c) 2020 brainlife.io The University of Texas at Austin and Indiana University
+
+
 ## Running the App 
 
 ### On Brainlife.io
 
-You can submit this App online at [https://doi.org/10.25663/bl.app.276](https://doi.org/10.25663/bl.app.276) via the "Execute" tab.
+You can submit this App online at [https://doi.org/10.25663/brainlife.app.276](https://doi.org/10.25663/brainlife.app.276) via the "Execute" tab.
 
 ### Running Locally (on your machine)
 
