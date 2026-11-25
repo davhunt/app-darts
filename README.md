@@ -3,6 +3,39 @@
 
 # app-DARTS
 
+<!-- brainlife-app:begin (generated from the App manifest; edit the manifest, not this block) -->
+
+> **Segments a T1-weighted image into 102 brain regions, similar to FreeSurfer aparc+aseg, with the DARTS DenseUNet deep learning model and outputs a volumetric parcellation.**
+
+Runs the DARTS (DenseUnet-based Automatic Rapid Tool for brain Segmentation) pretrained dense-unet model on CPU to label a T1w image into 102 regions with a FreeSurfer-like key. Use it when a fast aparc+aseg-like parcellation is needed without running recon-all. The model weights are loaded from a fixed path on the original HPC system, so the App only runs where that path exists.
+
+| | |
+|---|---|
+| 📥 **Inputs** | `neuro/anat/t1w` |
+| 📤 **Outputs** | `neuro/parcellation/volume` |
+| 🐳 **Container** | `davhunt/darts:1.0.2` |
+| ⚙️ **Resources** | 4 CPUs · 50 GB memory · 0.75 h walltime |
+| 🔑 **Requires** | `FREESURFER_LICENSE` |
+| 🔗 **Run it** | [doi.org/10.25663/brainlife.app.276](https://doi.org/10.25663/brainlife.app.276) |
+
+#### 📥 Inputs
+
+| Input | Datatype | Required | Description |
+|---|---|---|---|
+| `t1` | `neuro/anat/t1w` | yes | T1-weighted image to segment. |
+
+#### 📤 Outputs
+
+| Output | Datatype | Description |
+|---|---|---|
+| `parc` | `neuro/parcellation/volume` | Volumetric parcellation (parc.nii.gz) in the T1w space with key.txt and label.json describing the 102 regions. |
+
+📚 **References used by this App:**
+- Kaku A., Hegde C. V., Huang J., Chung S., Wang X., Young M., Radmanesh A., Lui Y. W., Razavian N. DARTS: DenseUnet-based Automatic Rapid Tool for Brain Segmentation. arXiv:1911.05567 (2019).
+- Avesani P. et al. The open diffusion data derivatives, brain data upcycling via integrated publishing of derivatives and reproducible open cloud services. Sci Data 6, 69 (2019). [doi:10.1038/s41597-019-0073-y](https://doi.org/10.1038/s41597-019-0073-y)
+
+<!-- brainlife-app:end -->
+
 This app performs a deep learning-based segmentation of an anatomical T1-weighted MR image into 102 brain regions, similar to Freesurfer's aparc+aseg. The segmentation is quicker than a typical Freesurfer recon-all. The app requires a T1 image and outputs a parcellation of the image.
 
 The method is described in [this paper](https://arxiv.org/abs/1911.05567) and [this github repo](https://github.com/NYUMedML/DARTS).
